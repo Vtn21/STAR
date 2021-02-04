@@ -26,8 +26,8 @@
 
 import setuptools
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
+# with open("README.md", "r") as fh:
+#     long_description = fh.read()
 
 REQUIREMENTS = ["numpy", "chumpy", "opencv-python"]
 
@@ -38,8 +38,8 @@ setuptools.setup(
     author_email="ahmed.osman@tuebingen.mpg.de",
     install_requires=REQUIREMENTS,
     description="STAR: Sparse Trained Articulated Human Body Regressor",
-    long_description=long_description,
-    long_description_content_type="text/markdown",
+    # long_description=long_description,
+    # long_description_content_type="text/markdown",
     url="https://github.com/Vtn21/STAR",
     packages=setuptools.find_packages(),
     classifiers=[
